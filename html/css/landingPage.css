@@ -1,0 +1,51 @@
+body{
+    background-color: gold;
+    position: relative;
+}
+#header{
+    background-color: green;
+    border: 5px solid black;
+}
+
+#link1, #link2, #link3{
+    font-size: 50px;
+    display: inline-block;
+    width: 33%;
+    height: 100%;
+    text-align: center;
+}
+
+#link1 > a, #link2 > a, #link3 > a{
+    text-decoration: none;
+    font-weight: bold;
+    color: gold;
+    display: inline-block;
+    padding-top: 50px;
+}
+
+img{
+    background-color: transparent;
+    background: transparent;
+}
+
+.folder{
+    width: 24%;
+    display: inline-flex;
+    height: 180px;
+    flex-direction: column;
+}
+
+.folderLink{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#enlargePhoto{
+    position: absolute;
+    top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
